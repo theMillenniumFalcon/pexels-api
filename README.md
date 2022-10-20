@@ -1,1 +1,1 @@
-A simple program using pexels API and notion
+A simple API using pexels API and notion
