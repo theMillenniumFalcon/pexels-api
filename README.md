@@ -1,1 +1,1 @@
-A simple API to fetch photos and videos using pexels API
+A simple program to fetch photos and videos using pexels API
