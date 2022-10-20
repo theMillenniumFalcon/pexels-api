@@ -12,13 +12,16 @@ func main() {
 	var TOKEN = os.Getenv("PEXELS_TOKEN")
 	var c = utils.NewClient(TOKEN)
 
-	result, err := c.SearchPhotos("waves", 15, 1)
+	// result, err := c.SearchPhotos("waves", 15, 1)
+	// result, err := c.SearchVideo("waves", 15, 1)
+	// result, err := c.GetRandomPhoto()
+	result, err := c.GetRandomVideo()
 	if err != nil {
 		fmt.Printf("Search ertror:%v", err)
 	}
 
-	if result.Page == 0 {
-		fmt.Printf("search result wrong")
-	}
+	// if result.Page == 0 {
+	// 	fmt.Printf("search result wrong")
+	// }
 	fmt.Println(result)
 }

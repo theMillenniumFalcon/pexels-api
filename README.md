@@ -1,1 +1,1 @@
-A simple API using pexels API and notion
+A simple API to fetch photos and videos using pexels API
